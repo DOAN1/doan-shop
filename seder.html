@@ -7,26 +7,29 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <img src="1.jpg" alt="عسل السدر" class="background-image">
-        <h1>عسل السدر</h1>
-    </header>
-
-    <main>
-        <p>هذا هو أفضل عسل السدر، مثالي لتعزيز صحتك.</p>
+    <div class="product-page">
+        <img src="1.jpg" alt="صورة عسل السدر" class="product-image">
+        <h2>عسل السدر</h2>
         <p>السعر: 350 درهم</p>
-        <div>
-            <h2>تقييم المنتج</h2>
-            <p>تقييمات Amazon.com</p>
-            <!-- يمكنك تضمين نظام تقييم هنا -->
-        </div>
-        <div class="related-images">
-            <!-- عرض الصور من 1.jpg إلى 100.jpg -->
-        </div>
-    </main>
+        <p>خدمة الدفع عند الاستلام متاحة.</p>
 
-    <footer>
-        <!-- أضف هنا المحتوى ذاته كما في صفحة الـ index.html -->
-    </footer>
+        <!-- نظام التقييم -->
+        <div class="rating">
+            <h3>تقييم المنتج</h3>
+            <div class="stars">
+                <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+            </div>
+            <textarea placeholder="أضف تعليقك هنا"></textarea>
+            <button type="submit">إرسال التقييم</button>
+        </div>
+
+        <!-- عرض المنتجات ذات الصلة -->
+        <h3>منتجات ذات صلة</h3>
+        <div class="related-products">
+            <img src="related1.jpg" alt="منتج ذو صلة">
+            <img src="related2.jpg" alt="منتج ذو صلة">
+            <img src="related3.jpg" alt="منتج ذو صلة">
+        </div>
+    </div>
 </body>
 </html>
